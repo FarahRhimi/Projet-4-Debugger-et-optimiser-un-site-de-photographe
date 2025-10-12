@@ -42,6 +42,10 @@ body {
 	width: 20px;
 }
 
+.contact-info a {
+	color: #000;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -102,7 +106,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #0c2ded;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -352,5 +356,23 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+
+
+	/* --- Référencement local / Contact info --- */
+.contact-info {
+	margin-top: 2em;
+	background-color: #fff;
+	padding: 1.5em;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .contact-info h3 {
+	margin-bottom: 1em;
+  }
+  .contact-info p {
+	margin: 0.5em 0;
+  }
+
+	
 }
 
